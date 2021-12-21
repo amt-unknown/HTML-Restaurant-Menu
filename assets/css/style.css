@@ -4,6 +4,8 @@ body {
     padding: 0;
     background-color: beige;
     text-align: center;
+    height:100%;
+    min-height: 100%;
 }
 
 h1,
@@ -63,6 +65,14 @@ nav a:hover {
     height: auto;
 }
 
+#announcementBanner{
+    width: 100%;
+    background-color: white;
+}
+#announcementBanner p{
+    color: red;
+}
+
 .service {
     display: inline-block;
     background-color: white;
@@ -74,11 +84,36 @@ nav a:hover {
     margin: 10px;
 }
 
+.active{
+    color: rgb(0, 78, 0);
+}
+
+.locations ul{
+    text-align: center;
+}
+
+.locations li, .footer li{
+    list-style-type: none;
+    display: block;
+    padding: 5px;
+    font-size: larger;
+}
+
 table {
     border: 3px solid black;
     width: 100%;
 }
   
+footer{
+    padding: 10px;
+    margin-top: 50px;
+    border-top: solid green 1px;
+}
+
+footer p{
+    color: rgb(0,78,0);
+}
+
 td,
 th {
     border: 1px solid black;
